@@ -38,112 +38,66 @@ const WhatIDo = () => {
         <div className="what-box-in">
           <div className="what-border2">
             <svg width="100%">
-              <line
-                x1="0"
-                y1="0"
-                x2="0"
-                y2="100%"
-                stroke="white"
-                strokeWidth="2"
-                strokeDasharray="7,7"
-              />
-              <line
-                x1="100%"
-                y1="0"
-                x2="100%"
-                y2="100%"
-                stroke="white"
-                strokeWidth="2"
-                strokeDasharray="7,7"
-              />
+              <line x1="0" y1="0" x2="0" y2="100%" stroke="white" strokeWidth="2" strokeDasharray="7,7" />
+              <line x1="100%" y1="0" x2="100%" y2="100%" stroke="white" strokeWidth="2" strokeDasharray="7,7" />
             </svg>
           </div>
-          <div
-            className="what-content what-noTouch"
-            ref={(el) => setRef(el, 0)}
-          >
+          <div className="what-content what-noTouch" ref={(el) => setRef(el, 0)}>
             <div className="what-border1">
               <svg height="100%">
-                <line
-                  x1="0"
-                  y1="0"
-                  x2="100%"
-                  y2="0"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
-                <line
-                  x1="0"
-                  y1="100%"
-                  x2="100%"
-                  y2="100%"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
+                <line x1="0" y1="0" x2="100%" y2="0" stroke="white" strokeWidth="2" strokeDasharray="6,6" />
+                <line x1="0" y1="100%" x2="100%" y2="100%" stroke="white" strokeWidth="2" strokeDasharray="6,6" />
               </svg>
             </div>
             <div className="what-corner"></div>
-
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>DATA ENGINEERING</h3>
+              <h4>ETL & Data Pipelines</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building end-to-end data pipelines — from raw data extraction
+                and cleaning to transformation and loading into structured,
+                analysis-ready formats for business decision-making.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">Excel Power Query</div>
+                <div className="what-tags">ETL</div>
+                <div className="what-tags">Data Cleaning</div>
+                <div className="what-tags">Data Validation</div>
+                <div className="what-tags">MySQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
-          <div
-            className="what-content what-noTouch"
-            ref={(el) => setRef(el, 1)}
-          >
+          <div className="what-content what-noTouch" ref={(el) => setRef(el, 1)}>
             <div className="what-border1">
               <svg height="100%">
-                <line
-                  x1="0"
-                  y1="100%"
-                  x2="100%"
-                  y2="100%"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
+                <line x1="0" y1="100%" x2="100%" y2="100%" stroke="white" strokeWidth="2" strokeDasharray="6,6" />
               </svg>
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>BI & ANALYTICS</h3>
+              <h4>Dashboards & Reporting</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Designing automated dashboards and reports that turn raw data
+                into actionable insights, enabling stakeholders to track KPIs
+                and make data-driven decisions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">DAX</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">Advanced Excel</div>
+                <div className="what-tags">Pivot Tables</div>
+                <div className="what-tags">XLOOKUP</div>
+                <div className="what-tags">KPI Tracking</div>
+                <div className="what-tags">Process Mapping</div>
               </div>
               <div className="what-arrow"></div>
             </div>
